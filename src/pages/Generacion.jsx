@@ -53,6 +53,7 @@ const Generacion = () => {
     <Box
       sx={{
         width: { xs: "90%", sm: "90%", md: "60%" },
+        marginTop: { xs: "50px", sm: "50px" },
         margin: "0 auto",
         height: "80vh",
         overflowY: "auto",
