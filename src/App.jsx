@@ -14,7 +14,7 @@ function App() {
   const bpxs = useMediaQuery(theme.breakpoints.down("xs"));
   const bpsm = useMediaQuery(theme.breakpoints.down("sm"));
   const bpmd = useMediaQuery(theme.breakpoints.down("md"));
-  const headerHeight = bpxs || bpmd || bpsm ? 40 : 10;
+  const headerHeight = bpxs || bpmd || bpsm ? 45 : 10;
   return (
     <BrowserRouter>
       <div
