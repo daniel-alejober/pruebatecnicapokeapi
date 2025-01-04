@@ -113,6 +113,7 @@ const Header = () => {
                 src="/pokemon.svg"
                 alt="logo pokemon"
                 style={{ width: "250px", height: "50px", marginRight: "auto" }}
+                onClick={() => navigate("/")}
               />
             </Box>
             <IconButton
@@ -151,6 +152,7 @@ const Header = () => {
                 <MenuItem
                   sx={{ color: "whitesmoke" }}
                   onClick={() => {
+                    toggleDrawer(false);
                     navigate("/generaciones");
                   }}
                 >
